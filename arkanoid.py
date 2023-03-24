@@ -20,11 +20,11 @@ PAD_H = 100
 # Насколько будет увеличиваться скорость мяча с каждым ударом
 BALL_SPEED_UP = 1.05
 # Максимальная скорость мяча
-BALL_MAX_SPEED = 40
+BALL_MAX_SPEED = 20
 # радиус мяча
 BALL_RADIUS = 30
 
-INITIAL_SPEED = 20
+INITIAL_SPEED = 10
 BALL_X_SPEED = INITIAL_SPEED
 BALL_Y_SPEED = INITIAL_SPEED
 
@@ -114,7 +114,7 @@ p_2_text = c.create_text(WIDTH/6, PAD_H/4,
 
 # добавим глобальные переменные для скорости движения мяча
 # по горизонтали
-BALL_X_CHANGE = 20
+BALL_X_CHANGE = 10
 # по вертикали
 BALL_Y_CHANGE = 0
  
@@ -161,7 +161,7 @@ def move_ball():
 
 # зададим глобальные переменные скорости движения ракеток
 # скорось с которой будут ездить ракетки
-PAD_SPEED = 20
+PAD_SPEED = 30
 # скорость левой платформы
 LEFT_PAD_SPEED = 0
 # скорость правой ракетки
